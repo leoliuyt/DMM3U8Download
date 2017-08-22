@@ -13,6 +13,9 @@
 		6B4C45241F4BD532009FBF88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B4C45221F4BD532009FBF88 /* Main.storyboard */; };
 		6B4C45261F4BD532009FBF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B4C45251F4BD532009FBF88 /* Assets.xcassets */; };
 		6B4C45291F4BD532009FBF88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B4C45271F4BD532009FBF88 /* LaunchScreen.storyboard */; };
+		6B4C45311F4BDA1D009FBF88 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B4C45301F4BDA1D009FBF88 /* data.json */; };
+		6B4C45341F4BDABB009FBF88 /* DMGoodsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C45331F4BDABB009FBF88 /* DMGoodsCell.m */; };
+		6B4C45371F4BDB35009FBF88 /* DMGoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C45361F4BDB35009FBF88 /* DMGoodsModel.m */; };
 		C967503DC98C4EB1E7E6C78A /* libPods-DMM3U8Download.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD514F5A3A666DB0F58285BA /* libPods-DMM3U8Download.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,11 @@
 		6B4C45251F4BD532009FBF88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B4C45281F4BD532009FBF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B4C452A1F4BD532009FBF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B4C45301F4BDA1D009FBF88 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		6B4C45321F4BDABB009FBF88 /* DMGoodsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMGoodsCell.h; sourceTree = "<group>"; };
+		6B4C45331F4BDABB009FBF88 /* DMGoodsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMGoodsCell.m; sourceTree = "<group>"; };
+		6B4C45351F4BDB35009FBF88 /* DMGoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMGoodsModel.h; sourceTree = "<group>"; };
+		6B4C45361F4BDB35009FBF88 /* DMGoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMGoodsModel.m; sourceTree = "<group>"; };
 		AD514F5A3A666DB0F58285BA /* libPods-DMM3U8Download.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DMM3U8Download.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73274675E631EC64E306FDC /* Pods-DMM3U8Download.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMM3U8Download.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMM3U8Download/Pods-DMM3U8Download.release.xcconfig"; sourceTree = "<group>"; };
 		F307D65488C4ABEB58B167F3 /* Pods-DMM3U8Download.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMM3U8Download.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMM3U8Download/Pods-DMM3U8Download.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +77,11 @@
 				6B4C451D1F4BD532009FBF88 /* AppDelegate.m */,
 				6B4C451F1F4BD532009FBF88 /* ViewController.h */,
 				6B4C45201F4BD532009FBF88 /* ViewController.m */,
+				6B4C45321F4BDABB009FBF88 /* DMGoodsCell.h */,
+				6B4C45331F4BDABB009FBF88 /* DMGoodsCell.m */,
+				6B4C45351F4BDB35009FBF88 /* DMGoodsModel.h */,
+				6B4C45361F4BDB35009FBF88 /* DMGoodsModel.m */,
+				6B4C45301F4BDA1D009FBF88 /* data.json */,
 				6B4C45221F4BD532009FBF88 /* Main.storyboard */,
 				6B4C45251F4BD532009FBF88 /* Assets.xcassets */,
 				6B4C45271F4BD532009FBF88 /* LaunchScreen.storyboard */,
@@ -137,6 +150,7 @@
 				TargetAttributes = {
 					6B4C45151F4BD532009FBF88 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = VX3477C4M7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -167,6 +181,7 @@
 				6B4C45291F4BD532009FBF88 /* LaunchScreen.storyboard in Resources */,
 				6B4C45261F4BD532009FBF88 /* Assets.xcassets in Resources */,
 				6B4C45241F4BD532009FBF88 /* Main.storyboard in Resources */,
+				6B4C45311F4BDA1D009FBF88 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,8 +241,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B4C45211F4BD532009FBF88 /* ViewController.m in Sources */,
+				6B4C45341F4BDABB009FBF88 /* DMGoodsCell.m in Sources */,
 				6B4C451E1F4BD532009FBF88 /* AppDelegate.m in Sources */,
 				6B4C451B1F4BD532009FBF88 /* main.m in Sources */,
+				6B4C45371F4BDB35009FBF88 /* DMGoodsModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +367,9 @@
 			baseConfigurationReference = F307D65488C4ABEB58B167F3 /* Pods-DMM3U8Download.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VX3477C4M7;
 				INFOPLIST_FILE = DMM3U8Download/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yiqi.DMM3U8Download;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -362,7 +381,9 @@
 			baseConfigurationReference = E73274675E631EC64E306FDC /* Pods-DMM3U8Download.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VX3477C4M7;
 				INFOPLIST_FILE = DMM3U8Download/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yiqi.DMM3U8Download;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +409,7 @@
 				6B4C452F1F4BD532009FBF88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
