@@ -12,4 +12,6 @@
 
 @property (nonatomic, strong) DMGoodsModel *goods;
 
+@property (nonatomic, copy) void(^downloadBlock)(DMGoodsModel *goods);
+
 @end

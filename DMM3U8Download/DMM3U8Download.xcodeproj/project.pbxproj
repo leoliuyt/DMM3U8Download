@@ -16,6 +16,7 @@
 		6B4C45311F4BDA1D009FBF88 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B4C45301F4BDA1D009FBF88 /* data.json */; };
 		6B4C45341F4BDABB009FBF88 /* DMGoodsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C45331F4BDABB009FBF88 /* DMGoodsCell.m */; };
 		6B4C45371F4BDB35009FBF88 /* DMGoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C45361F4BDB35009FBF88 /* DMGoodsModel.m */; };
+		6B4C453A1F4D255A009FBF88 /* DMM3u8Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C45391F4D255A009FBF88 /* DMM3u8Parse.m */; };
 		C967503DC98C4EB1E7E6C78A /* libPods-DMM3U8Download.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD514F5A3A666DB0F58285BA /* libPods-DMM3U8Download.a */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,8 @@
 		6B4C45331F4BDABB009FBF88 /* DMGoodsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMGoodsCell.m; sourceTree = "<group>"; };
 		6B4C45351F4BDB35009FBF88 /* DMGoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMGoodsModel.h; sourceTree = "<group>"; };
 		6B4C45361F4BDB35009FBF88 /* DMGoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMGoodsModel.m; sourceTree = "<group>"; };
+		6B4C45381F4D255A009FBF88 /* DMM3u8Parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMM3u8Parse.h; sourceTree = "<group>"; };
+		6B4C45391F4D255A009FBF88 /* DMM3u8Parse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMM3u8Parse.m; sourceTree = "<group>"; };
 		AD514F5A3A666DB0F58285BA /* libPods-DMM3U8Download.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DMM3U8Download.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73274675E631EC64E306FDC /* Pods-DMM3U8Download.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMM3U8Download.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMM3U8Download/Pods-DMM3U8Download.release.xcconfig"; sourceTree = "<group>"; };
 		F307D65488C4ABEB58B167F3 /* Pods-DMM3U8Download.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMM3U8Download.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMM3U8Download/Pods-DMM3U8Download.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 				6B4C451D1F4BD532009FBF88 /* AppDelegate.m */,
 				6B4C451F1F4BD532009FBF88 /* ViewController.h */,
 				6B4C45201F4BD532009FBF88 /* ViewController.m */,
+				6B4C45381F4D255A009FBF88 /* DMM3u8Parse.h */,
+				6B4C45391F4D255A009FBF88 /* DMM3u8Parse.m */,
 				6B4C45321F4BDABB009FBF88 /* DMGoodsCell.h */,
 				6B4C45331F4BDABB009FBF88 /* DMGoodsCell.m */,
 				6B4C45351F4BDB35009FBF88 /* DMGoodsModel.h */,
@@ -245,6 +250,7 @@
 				6B4C451E1F4BD532009FBF88 /* AppDelegate.m in Sources */,
 				6B4C451B1F4BD532009FBF88 /* main.m in Sources */,
 				6B4C45371F4BDB35009FBF88 /* DMGoodsModel.m in Sources */,
+				6B4C453A1F4D255A009FBF88 /* DMM3u8Parse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -31,5 +31,6 @@
 @property (nonatomic, copy) NSString *videourl;
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, copy) NSString *title;
+@property (nonatomic, copy) NSString *_id;
 
 @end

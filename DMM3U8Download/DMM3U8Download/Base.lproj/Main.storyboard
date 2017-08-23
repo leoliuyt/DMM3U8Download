@@ -32,14 +32,25 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="255.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2lf-Bt-pEk">
+                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2lf-Bt-pEk">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="255.5"/>
                                                 </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kjz-04-y3u">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="255.5"/>
+                                                    <state key="normal" title="play"/>
+                                                    <connections>
+                                                        <action selector="downloadAndPlayAction:" destination="I2t-X0-OVT" eventType="touchUpInside" id="eJT-rQ-xWt"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="2lf-Bt-pEk" firstAttribute="top" secondItem="8we-Mf-k95" secondAttribute="top" id="33c-UT-ahr"/>
+                                                <constraint firstAttribute="trailing" secondItem="Kjz-04-y3u" secondAttribute="trailing" id="8Pg-xC-a4t"/>
+                                                <constraint firstItem="Kjz-04-y3u" firstAttribute="top" secondItem="8we-Mf-k95" secondAttribute="top" id="HHt-hZ-2BW"/>
+                                                <constraint firstItem="Kjz-04-y3u" firstAttribute="leading" secondItem="8we-Mf-k95" secondAttribute="leading" id="SIU-te-2eW"/>
                                                 <constraint firstAttribute="trailing" secondItem="2lf-Bt-pEk" secondAttribute="trailing" id="XTm-I2-wqX"/>
                                                 <constraint firstAttribute="bottom" secondItem="2lf-Bt-pEk" secondAttribute="bottom" id="egT-c8-mZW"/>
+                                                <constraint firstAttribute="bottom" secondItem="Kjz-04-y3u" secondAttribute="bottom" id="uab-Be-sUv"/>
                                                 <constraint firstItem="2lf-Bt-pEk" firstAttribute="leading" secondItem="8we-Mf-k95" secondAttribute="leading" id="zQt-bn-EcZ"/>
                                             </constraints>
                                         </tableViewCellContentView>

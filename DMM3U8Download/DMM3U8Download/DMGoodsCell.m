@@ -26,6 +26,11 @@
     // Configure the view for the selected state
 }
 
+- (IBAction)downloadAndPlayAction:(id)sender {
+    if (self.downloadBlock) {
+        self.downloadBlock(self.goods);
+    }
+}
 
 - (void)setGoods:(DMGoodsModel *)goods
 {
