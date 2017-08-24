@@ -61,6 +61,9 @@
      */
     //获取m3u8的内容出错
     if (error) {
+        if(completionHandler){
+            completionHandler(nil,error);
+        }
         return;
     }
     
@@ -68,6 +71,10 @@
     NSRange range = [dataString rangeOfString:@"#EXTINF"];
     
     if (range.location == NSNotFound) {
+        if(completionHandler){
+            NSError *err = [NSError errorWithDomain:@"com.leoliu.m3u8" code:-1 userInfo:@{NSLocalizedDescriptionKey:@"m3u8文件格式错误"}];
+            completionHandler(nil,err);
+        }
         return;
     }
     

@@ -76,6 +76,7 @@
         model._id = [NSString stringWithFormat:@"%tu",idx];
         [mArr addObject:model];
     }];
+
     
     self.goodsList = [mArr copy];
 }
@@ -94,15 +95,18 @@
     
     AVPlayerItem *playerItem = [[AVPlayerItem alloc] initWithAsset:playerAsset];
     
-    AVPlayer *player = [[AVPlayer alloc] initWithPlayerItem:playerItem];
+    if (self.player) {
+        [self.player replaceCurrentItemWithPlayerItem:playerItem];
+        return;
+    }
     
-    AVPlayerLayer *playerLayer = [AVPlayerLayer playerLayerWithPlayer:player];
+    self.player = [[AVPlayer alloc] initWithPlayerItem:playerItem];
+    
+    AVPlayerLayer *playerLayer = [AVPlayerLayer playerLayerWithPlayer:self.player];
     
     playerLayer.frame = CGRectMake(0, 64, kScreeenW, 160);
     
     [self.view.layer addSublayer:playerLayer];
-    
-    self.player = player;
     
     //监听播放状态变化
     [self.player addObserver:self forKeyPath:@"status"
